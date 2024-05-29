@@ -3,9 +3,10 @@
 $(document).ready(function(){
 
     $("#botao-cadastrar").click(function(){
+    console.log("test")
 
-        $("#form-cadastrar").show("slow");
-        $("#section-login").hide("slow");
+        $("#form-cadastrar").slideToggle("slow");
+        $("#section-login").slideToggle("slow");
         $("#botao-cadastrar").hide( );
             
 });
